@@ -1,0 +1,39 @@
+.Badge__card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px #bbbbbb;
+}
+
+.Badge__img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Badge__img img {
+    border-radius: 50%;
+    max-width: 80px;
+}
+
+.Badge__info {
+    width: 80%;
+}
+
+.Badge__info p{
+    margin: 0;
+    padding: 0;
+}
+
+.Badge__info--name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #434343;
+}
+.Badge__info--twitter {
+    color: #5788f6;
+}

@@ -1,0 +1,9 @@
+.NotFound__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+.NotFound__container img {
+    max-width: 800px;
+}
